@@ -630,7 +630,7 @@ AC_DEFUN([ZFS_AC_DEFAULT_PACKAGE], [
 			bashcompletiondir=$sysconfdir/bash_completion.d
 			;;
 		*)
-			bashcompletiondir=/etc/bash_completion.d
+			bashcompletiondir=/usr/share/bash_completion/completions
 			;;
 	esac
 	AC_MSG_RESULT([$bashcompletiondir])
